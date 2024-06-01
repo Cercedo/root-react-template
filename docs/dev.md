@@ -32,3 +32,25 @@
 
   - Additional resources:
     - [Adding ESLint and Prettier to a ViteJS React project](https://dev.to/marcosdiasdev/adding-eslint-and-prettier-to-a-vitejs-react-project-2kkj?signin=true)
+
+- **Absolute Imports**
+  - Steps:
+    1. Configure path aliases in `tsconfig.json`.
+        - These aliases streamline your import statements. For instance, replace lengthy relative paths like `../../components/Button` with a simpler alias such as `@components/Button`.
+    2. Install and set up `vite-tsconfig-paths` in `vite.config.ts`.
+        - This plugin enables Vite to resolve imports using TypeScript's path mapping. This means that when Vite is bundling your application, it will understand and correctly resolve any import paths that use your TypeScript path aliases.
+    3. Configure ESLint to recognize TypeScript aliases in `.eslintrc.cjs`.
+        - By default, ESLint doesn't recognize TypeScript-specific features. Although your TypeScript compiler understands the path aliases, ESLint may throw errors as it can't resolve the aliased paths.
+        - To resolve this, use `eslint-import-resolver-typescript`. This plugin enables ESLint to understand TypeScript's path and module resolution. Configuring ESLint with this plugin allows it to correctly resolve your TypeScript path aliases, preventing unnecessary errors.
+    4. Implement the aliases in your import statements.
+
+  - Dependencies:
+    - `vite-tsconfig-paths`: Enables vite to resolve imports using TypeScript's path mapping.
+      - [More Info](https://www.npmjs.com/package/vite-tsconfig-paths?activeTab=readme)
+    - `eslint-import-resolver-typescript`: Helps ESLint understand TypeScript's path and module resolution, including path aliases.
+      - [More Info](https://www.npmjs.com/package/eslint-import-resolver-typescript)
+
+  - Additonal resources:
+    - [Streamlining Absolute Imports in React with TypeScript and Vite](https://dev.to/mizanrifat/streamlining-absolute-imports-in-react-with-typescript-and-vite-2bpp)
+    - [Preferences for auto imports and generated code](https://stackoverflow.com/questions/47330773/is-it-possible-to-configure-vs-code-such-way-that-import-will-use-absolute-path)
+    - [eslint-plugin-import > TypeScript](https://www.npmjs.com/package/eslint-plugin-import#typescript)

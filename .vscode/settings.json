@@ -9,5 +9,6 @@
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "prettier.configPath": ".prettierrc"
+  "prettier.configPath": ".prettierrc",
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }
