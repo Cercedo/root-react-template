@@ -8,8 +8,10 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0 ./src",
     "preview": "vite preview",
+    "format": "prettier --write --ignore-unknown --config .prettierrc ./src",
     "prepare": "husky",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -33,6 +35,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.6",
     "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3",

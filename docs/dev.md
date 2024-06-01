@@ -60,3 +60,6 @@
 
 - **commitlint**: Lint commit messages.
   - [Getting started](https://commitlint.js.org/guides/getting-started.html#getting-started)
+
+- **lint-staged**: Run linters against staged git files.
+  - [Installation and setup](https://github.com/lint-staged/lint-staged?tab=readme-ov-file#installation-and-setup)
