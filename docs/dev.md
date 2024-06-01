@@ -54,3 +54,6 @@
     - [Streamlining Absolute Imports in React with TypeScript and Vite](https://dev.to/mizanrifat/streamlining-absolute-imports-in-react-with-typescript-and-vite-2bpp)
     - [Preferences for auto imports and generated code](https://stackoverflow.com/questions/47330773/is-it-possible-to-configure-vs-code-such-way-that-import-will-use-absolute-path)
     - [eslint-plugin-import > TypeScript](https://www.npmjs.com/package/eslint-plugin-import#typescript)
+
+- **Husky**: Automatically lint your commit messages, code, and run tests upon committing or pushing.
+  - [Get started](https://typicode.github.io/husky/get-started.html)
