@@ -23,3 +23,12 @@
 
   - Additional resources:
     - [Adding ESLint and Prettier to a ViteJS React project](https://dev.to/marcosdiasdev/adding-eslint-and-prettier-to-a-vitejs-react-project-2kkj?signin=true)
+
+- **Prettier**: An opinionated code formatter.
+  - [Prettier](https://www.npmjs.com/package/prettier)
+  - Dependecies:
+    - `eslint-config-prettier`: Turns off all Eslint rules that might conflict with Prettier.
+      - [Details](https://github.com/prettier/eslint-config-prettier)
+
+  - Additional resources:
+    - [Adding ESLint and Prettier to a ViteJS React project](https://dev.to/marcosdiasdev/adding-eslint-and-prettier-to-a-vitejs-react-project-2kkj?signin=true)
