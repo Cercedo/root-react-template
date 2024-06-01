@@ -57,3 +57,6 @@
 
 - **Husky**: Automatically lint your commit messages, code, and run tests upon committing or pushing.
   - [Get started](https://typicode.github.io/husky/get-started.html)
+
+- **commitlint**: Lint commit messages.
+  - [Getting started](https://commitlint.js.org/guides/getting-started.html#getting-started)
