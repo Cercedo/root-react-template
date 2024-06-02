@@ -14,7 +14,7 @@ module.exports = {
     'eslint-config-prettier',
     'plugin:import/typescript',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'node_modules'],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh', 'check-file'],
   settings: {
@@ -57,5 +57,12 @@ module.exports = {
         'src/**/*': 'KEBAB_CASE',
       },
     ],
+    'no-console': 'error',
+    'import/no-cycle': 'error',
+    eqeqeq: 'error',
+    'no-eval': 'error',
+    curly: 'error',
+    'prefer-const': 'error',
+    'no-var': 'error',
   },
 };
