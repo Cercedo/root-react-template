@@ -63,3 +63,6 @@
 
 - **lint-staged**: Run linters against staged git files.
   - [Installation and setup](https://github.com/lint-staged/lint-staged?tab=readme-ov-file#installation-and-setup)
+
+- **eslint-plugin-check-file**: ESLint rules for consistent filename and folder.
+  - [Installation](https://www.npmjs.com/package/eslint-plugin-check-file)

@@ -16,7 +16,7 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', 'check-file'],
   settings: {
     react: {
       version: 'detect',
@@ -41,5 +41,21 @@ module.exports = {
       },
     ],
     'react/react-in-jsx-scope': 'off',
+    'check-file/filename-naming-convention': [
+      'error',
+      {
+        'src/**/!(main|index).{tsx,jsx}': 'PASCAL_CASE',
+        'src/**/!(vite-env.d).{ts,js}': 'CAMEL_CASE',
+      },
+      {
+        ignoreMiddleExtensions: true,
+      },
+    ],
+    'check-file/folder-naming-convention': [
+      'error',
+      {
+        'src/**/*': 'KEBAB_CASE',
+      },
+    ],
   },
 };
