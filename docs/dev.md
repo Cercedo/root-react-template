@@ -1,6 +1,6 @@
 # 🐛 Development
 
-## Dependencies
+## 🚩 Dependencies
 
 - **Tailwind CSS**: A utility-first CSS framework.
   - [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
@@ -66,3 +66,9 @@
 
 - **eslint-plugin-check-file**: ESLint rules for consistent filename and folder.
   - [Installation](https://www.npmjs.com/package/eslint-plugin-check-file)
+
+- **Organize imports**: By using VS Code and ESLint rules.
+  - [How to sort imports like a pro in TypeScript](https://medium.com/weekly-webtips/how-to-sort-imports-like-a-pro-in-typescript-4ee8afd7258a)
+
+  - Additional resources:
+    - [How to: Enable automatic import sorting in VS Code](https://dev.to/shanesc/how-to-sort-and-cleanup-imports-on-save-in-vs-code-52p1)
