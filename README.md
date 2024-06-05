@@ -1,4 +1,4 @@
-# 🐦 root-react-remplate
+# 🧢 root-react-remplate
 
 A lightweight template to start a React project and build maintainable, scalable and high-quality applications.
 
