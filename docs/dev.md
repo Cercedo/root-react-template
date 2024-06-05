@@ -72,3 +72,6 @@
 
   - Additional resources:
     - [How to: Enable automatic import sorting in VS Code](https://dev.to/shanesc/how-to-sort-and-cleanup-imports-on-save-in-vs-code-52p1)
+
+- **clsx**: A tiny (239B) utility for constructing className strings conditionally
+  - [clsx](https://www.npmjs.com/package/clsx)
